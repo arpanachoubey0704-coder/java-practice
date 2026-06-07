@@ -1,4 +1,4 @@
-public class PrimeFinder {
+public class Main {
 
     // Helper method to check if a number is prime
     public static boolean isPrime(int num) {
