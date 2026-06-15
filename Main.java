@@ -1,6 +1,6 @@
 
 //print num 1 to 20;
-import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
