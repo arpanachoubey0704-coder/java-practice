@@ -1,13 +1,15 @@
+
+//print num 1 to 20;
+import java.util.*;
 public class Main {
-public static void main(String[] args) {
-int i = 0, j = 10;
-for ( ; i < j; i += 2, j--) {
-    if (i == 4) {
-        continue;
+
+    public static void main(String[] args) {
+        int a = 1;
+
+        
+        while (a<=10) {
+            System.out.print( a );
+            a++;
+        }
     }
-    System.out.println("i = " + i + ", j = " + j);
-}
-  
-}
-    
 }
