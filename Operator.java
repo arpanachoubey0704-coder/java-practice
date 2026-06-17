@@ -1,11 +1,18 @@
-public class Operator {
-  public static void main(String[] args) {
-    int a = 2;
-int b = 3;
-int res = --a * b++ + ++b / a++;
+import java.util.Scanner;
 
-System.out.println("a = " + a);
-System.out.println("b = " + b);
-System.out.println("Result = " + res);
+public class Operator {
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print(" Enter your num here : ");
+int num = sc.nextInt();
+
+if (num % 2 ==0){
+  System.out.println( num+ " is even number ");
+}
+else{
+  System.out.println(num +  " is odd number");
+}
   }
+
 }
