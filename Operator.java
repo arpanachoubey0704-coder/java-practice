@@ -3,16 +3,17 @@ import java.util.Scanner;
 public class Operator {
 
   public static void main(String[] args) {
+    System.out.print(" Enter your number : ");
     Scanner sc = new Scanner(System.in);
-    System.out.print(" Enter your num here : ");
-int num = sc.nextInt();
-
-if (num % 2 ==0){
-  System.out.println( num+ " is even number ");
-}
-else{
-  System.out.println(num +  " is odd number");
-}
+    int num = sc.nextInt();
+    if (num >=0){
+      System.out.print(" number is positive : " +num);
+    }
+    else if (num <=0){
+      System.out.println(" number is negative : " +num);
+    }
+    else {
+      System.out.println(" number is not poitive and not negative ");
+    }
   }
-
 }
