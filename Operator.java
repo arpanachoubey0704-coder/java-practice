@@ -15,5 +15,6 @@ public class Operator {
     else {
       System.out.println(" number is not poitive and not negative ");
     }
+    sc.close();
   }
 }
