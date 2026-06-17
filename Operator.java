@@ -4,34 +4,26 @@ public class Operator {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print(" Enter the day number : ");
-    int weeknumber = sc.nextInt();
-    switch (weeknumber) {
-      case 1:
-        System.out.println("Monday");
-        break;
-    case 2:
-        System.out.println("Tuesday");
-        break;
-        case 3:
-        System.out.println("wEDday");
-        break;
-        case 4:
-        System.out.println("Thruday");
-        break;
-        case 5:
-        System.out.println("Friday");
-        break;
-        case 6:
-        System.out.println("Saturay");
-        break;
-case 7:
-        System.out.println("Sunday");
-        break;
-      default:
-        System.out.println("Please eneter the number 1 to 7");
-        break;
+    System.out.print(" Enter the year :  ");
+int Year = sc.nextInt();
+if (Year % 4 == 0 ){
+  if (Year % 100==0){
+    if (Year % 400==0){
+System.out.println(Year+ " is leap year ");
     }
-    sc.close();
+    
+    else {
+      System.out.println(" this is the normal year");
+    }
+
+  }
+  else {
+    System.out.println("this is the leap year");
+  }
+}
+else {
+  System.out.println(Year+ " not a  leap year");
+}
+sc.close();
   }
 }
