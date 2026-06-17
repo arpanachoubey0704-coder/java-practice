@@ -3,17 +3,34 @@ import java.util.Scanner;
 public class Operator {
 
   public static void main(String[] args) {
-    System.out.print(" Enter your number : ");
     Scanner sc = new Scanner(System.in);
-    int num = sc.nextInt();
-    if (num >=0){
-      System.out.print(" number is positive : " +num);
-    }
-    else if (num <=0){
-      System.out.println(" number is negative : " +num);
-    }
-    else {
-      System.out.println(" number is not poitive and not negative ");
+    System.out.print(" Enter the day number : ");
+    int weeknumber = sc.nextInt();
+    switch (weeknumber) {
+      case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+        case 3:
+        System.out.println("wEDday");
+        break;
+        case 4:
+        System.out.println("Thruday");
+        break;
+        case 5:
+        System.out.println("Friday");
+        break;
+        case 6:
+        System.out.println("Saturay");
+        break;
+case 7:
+        System.out.println("Sunday");
+        break;
+      default:
+        System.out.println("Please eneter the number 1 to 7");
+        break;
     }
     sc.close();
   }
