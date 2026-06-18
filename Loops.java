@@ -16,5 +16,6 @@ public class Loops {
       i++;
     }
     System.out.println(+n +sum);
+    sc.close();
   }
 }
