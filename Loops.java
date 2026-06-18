@@ -1,9 +1,10 @@
 public class Loops{
 public static void main(String[] args) {
   int num = 1;
-  while (num<=10){
+  while (num<=100){
     System.out.println(num);
     num++;
   }
+  System.out.println("congrts your number are here");
 }
 }
