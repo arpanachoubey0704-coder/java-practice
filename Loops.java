@@ -1,21 +1,12 @@
-import java.util.Scanner;
-
 public class Loops {
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.print( " Enter first num : ");
-    
-    int n= sc.nextInt();
-
-    int sum = 0;
-    int i = 1;
-
-    while (i<=n) {
-      sum = sum +i;
-      i++;
+    for (int raw = 1; raw<=4; raw++){
+      for (int col = 1 ; col<=4; col++)
+    {
+System.out.print(" * ");
     }
-    System.out.println(+n +sum);
-    sc.close();
+    System.out.println();
+    }
   }
 }
