@@ -1,8 +1,8 @@
 public class Main {
 
   public static void main(String[] args) {
-    int $ = 100;
+    int name = 100;
 
-    System.out.println($);
+    System.out.println(name);
   }
 }
