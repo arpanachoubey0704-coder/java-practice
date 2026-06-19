@@ -1,7 +1,8 @@
 public class Main {
 
   public static void main(String[] args) {
-    int $ = 25;
+    int $ = 29;
+    
     System.out.println($);
   }
 }
