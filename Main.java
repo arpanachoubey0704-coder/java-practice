@@ -1,17 +1,12 @@
 class Student
 {
-    String name;          // Instance Variable
-    static String college = "SISTec"; // Static Variable
-
-    Student(String n)
-    {
-        name = n;
-    }
+    String name;
+    int rollNo;
 
     void display()
     {
         System.out.println("Name: " + name);
-        System.out.println("College: " + college);
+        System.out.println("Roll No: " + rollNo);
     }
 }
 
@@ -19,10 +14,11 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Student s2 = new Student("Arpana");
-        Student s3 = new Student("Palak");
+        Student s1 = new Student();
 
-        s2.display();
-        s3.display();
+        s1.name = "Arpana";
+        s1.rollNo = 101;
+
+        s1.display();
     }
 }
