@@ -1,12 +1,17 @@
 class Student
 {
-    String name;
-    int rollNo;
+    String name;          
+    static String college = "SISTec"; 
+
+    Student(String n)
+    {
+        name = n;
+    }
 
     void display()
     {
         System.out.println("Name: " + name);
-        System.out.println("Roll No: " + rollNo);
+        System.out.println("College: " + college);
     }
 }
 
@@ -14,11 +19,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Student s1 = new Student();
-
-        s1.name = "Arpana";
-        s1.rollNo = 101;
+        Student s1 = new Student("Arpana");
+        Student s2 = new Student("Palak");
 
         s1.display();
+        s2.display();
     }
 }
