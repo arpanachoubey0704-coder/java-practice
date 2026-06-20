@@ -1,8 +1,28 @@
-public class Main {
+class Student
+{
+    String name;          // Instance Variable
+    static String college = "SISTec"; // Static Variable
 
-  public static void main(String[] args) {
-    int name = 100;
+    Student(String n)
+    {
+        name = n;
+    }
 
-    System.out.println(name);
-  }
+    void display()
+    {
+        System.out.println("Name: " + name);
+        System.out.println("College: " + college);
+    }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Student s1 = new Student("Arpana");
+        Student s2 = new Student("Palak");
+
+        s1.display();
+        s2.display();
+    }
 }
