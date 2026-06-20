@@ -19,10 +19,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Student s1 = new Student("Arpana");
-        Student s2 = new Student("Palak");
+        Student s2 = new Student("Arpana");
+        Student s3 = new Student("Palak");
 
-        s1.display();
         s2.display();
+        s3.display();
     }
 }
