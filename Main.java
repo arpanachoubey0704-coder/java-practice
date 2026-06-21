@@ -1,28 +1,11 @@
-class Student
-{
-    String name;          
-    static String college = "SISTec"; 
+public class Main {
 
-    Student(String n)
-    {
-        name = n;
-    }
-
-    void display()
-    {
-        System.out.println("Name: " + name);
-        System.out.println("College: " + college);
-    }
-}
-
-public class Main
-{
-    public static void main(String[] args)
-    {
-        Student s1 = new Student("Arpana");
-        Student s2 = new Student("Palak");
-
-        s1.display();
-        s2.display();
+    public static void main(String[] args) {
+        for (int line = 1 ; line<=4; line ++){
+            for ( int star = 1 ; star <=line ; star ++){
+System.out.print(" * ");
+            }
+            System.out.println();
+        }
     }
 }
