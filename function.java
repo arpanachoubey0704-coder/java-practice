@@ -1,5 +1,8 @@
 public class function {
   public static void main (String []args){
-    System.out.println("hellow world");
+    int a = 6;
+    int b = 8;
+    int sum = a + b ;
+    System.out.println(sum);
   }
 }
