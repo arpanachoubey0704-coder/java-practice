@@ -4,22 +4,27 @@ import java.util.List;
 
 public class function {
     public static void main(String[] args) {
-        int n = 100000;
-
+        int n = 50000;
         List<Integer> arrayList = new ArrayList<>();
+        List<Integer> linkedList = new LinkedList<>();
+
+        for (int i = 0; i < n; i++) {
+            arrayList.add(i);
+            linkedList.add(i);
+        }
+
         long start = System.nanoTime();
         for (int i = 0; i < n; i++) {
-            arrayList.add(0, i);
+            arrayList.get(i);
         }
         long end = System.nanoTime();
-        System.out.println("ArrayList insertion at beginning: " + (end - start) / 1000000.0 + " ms");
+        System.out.println("ArrayList access time: " + (end - start) / 1000000.0 + " ms");
 
-        List<Integer> linkedList = new LinkedList<>();
         start = System.nanoTime();
         for (int i = 0; i < n; i++) {
-            linkedList.add(0, i);
+            linkedList.get(i);
         }
         end = System.nanoTime();
-        System.out.println("LinkedList insertion at beginning: " + (end - start) / 1000000.0 + " ms");
+        System.out.println("LinkedList access time: " + (end - start) / 1000000.0 + " ms");
     }
 }
