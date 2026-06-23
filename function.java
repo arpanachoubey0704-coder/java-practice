@@ -18,7 +18,7 @@ public class function {
             arrayList.get(i);
         }
         long end = System.nanoTime();
-        System.out.println("ArrayList access time: " + (end - start) / 1000000.0 + " ms");
+        System.out.println("ArrayList access time: " + (end - start) / 1000000 + " ms");
 
         start = System.nanoTime();
         for (int i = 0; i < n; i++) {
