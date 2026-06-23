@@ -25,6 +25,6 @@ public class function {
             linkedList.get(i);
         }
         end = System.nanoTime();
-        System.out.println("LinkedList access time: " + (end - start) / 1000000.0 + " ms");
+        System.out.println("LinkedList access time: " + (end - start) / 1000000 + " ms");
     }
 }
