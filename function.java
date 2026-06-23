@@ -1,12 +1,12 @@
 public class function {
   public static void main (String []args){
-    int a = 2;
-    int b = 5;
-    System.out.println("Before swapping a = " +a + " , b=" +b);
-    int swap = a ;
-    a = b ;
-    b = swap;
-    System.out.println("After Swapping a = " +a+ " , n=" +b );
+    int b = 2;
+    int c = 5;
+    System.out.println("Before swapping a = " +b + " , b=" +b);
+    int swap = b ;
+    b = c ;
+    c = swap;
+    System.out.println("After Swapping a = "+ b+ " , n=" +b );
   }
 
 }
