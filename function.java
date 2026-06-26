@@ -1,14 +1,13 @@
-//import java.util.*;
 public class function {
-  public static void name (int a , int b ){ 
-   
-    int sum = a + b ;  
-    System.out.println(" sum is : " +sum);
-  }
-  public static void main(String[] args) {
- int a = 5;
-    int b = 3 ;
-    name(5,3);
-    
-  }
+    public static void calculateSum(int num1, int num2) {
+        int sum = num1 + num2;
+        System.out.println("sum is : " + sum);
+    }
+
+    public static void main(String[] args) {
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        calculateSum(a, b);
+    }
 }
