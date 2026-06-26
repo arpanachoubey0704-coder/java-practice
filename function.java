@@ -1,13 +1,17 @@
+import java.util.Scanner;
+
 public class function {
-    public static void calculateSum(int num1, int num2) {
-        int sum = num1 + num2;
-        System.out.println("sum is : " + sum);
+    public static int calculateProduct(int x, int y) {
+        int product = x * y;
+        return product;
     }
 
     public static void main(String[] args) {
-        java.util.Scanner sc = new java.util.Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        calculateSum(a, b);
+        
+        int result = calculateProduct(a, b);
+        System.out.println("Product is : " + result);
     }
 }
