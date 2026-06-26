@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
 public class function {
-    public static int calculateProduct(int x, int y) {
-        int product = x * y;
-        return product;
+    public static void checkEvenOrOdd(int n) {
+        if (n % 2 == 0) {
+            System.out.println(n + " is Even");
+        } else {
+            System.out.println(n + " is Odd");
+        }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();
         
-        int result = calculateProduct(a, b);
-        System.out.println("Product is : " + result);
+        checkEvenOrOdd(number);
     }
 }
