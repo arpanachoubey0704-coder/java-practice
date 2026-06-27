@@ -1,19 +1,20 @@
 import java.util.Scanner;
 
 public class function {
-    public static void checkEvenOrOdd(int n) {
-        if (n % 2 == 0) {
-            System.out.println(n + " is Even");
-        } else {
-            System.out.println(n + " is Odd");
-        }
-    }
+  public static void num (){
+//Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int number = sc.nextInt();
-        
-        checkEvenOrOdd(number);
-    }
+int a = sc.nextInt();
+int b = sc.nextInt();
+int sum = a + b ;
+System.out.println(" The total sum is : " + sum );
+sc.close();
+  }
+  public static void main(String[] args) {
+    num ();
+    //System.out.println(+sum);
+  }
+  //System.out.println(+sum);
+
 }
