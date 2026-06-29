@@ -5,7 +5,7 @@ public class function {
     }
 
     public static void main(String[] args) {
-        int myNumber = 6;
+        int myNumber = 7;
         
         int result = calculateSquare(myNumber);
         
