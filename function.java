@@ -1,9 +1,14 @@
 public class function {
-  public static void main(String[] args) {
-   // int num = 20;
-           for (int i = 1 ; i<=30 ; i ++){
-            System.out.println(i);
-           }
-  }
-  
+
+    public static int calculateSquare(int number) {
+        return number * number;
+    }
+
+    public static void main(String[] args) {
+        int myNumber = 5;
+        
+        int result = calculateSquare(myNumber);
+        
+        System.out.println("The square of " + myNumber + " is: " + result);
+    }
 }
