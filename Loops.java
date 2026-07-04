@@ -1,13 +1,12 @@
-import java.util.Scanner;
-
 public class Loops {
   public static void main(String[] args) {
-    Scanner sc = new  Scanner(System.in);
-  
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int pro = a * b ;
-    System.out.println(pro);
-    sc.close();
+    int a = 8;
+    int b = 9;
+    int temp = a ;
+    a = b ;
+    b = temp;
+    System.out.println(" a : " +a);
+    System.out.println(" b : " +b);
+
   }
 }
