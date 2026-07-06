@@ -1,13 +1,12 @@
 public class function {
+public static void num() {
 
-  public static void hellow(){
-    System.out.println(" Hellow World ");
-    System.out.println(" Hellow World ");
-    System.out.println(" Hellow World ");
-System.out.print(" Hellow World ");
-return;
-  }
+  int a  = 6;
+    int b = 5;
+    System.out.println(+a);
+     System.out.println(+b);
+}
   public static void main(String[] args) {
-    hellow();
+    num();
   }
 }
