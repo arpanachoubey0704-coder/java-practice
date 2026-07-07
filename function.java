@@ -5,6 +5,6 @@ public static void num (){
   return;
 }
   public static void main(String[] args) {
-    
+    num();
   }
 }
