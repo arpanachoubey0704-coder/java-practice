@@ -7,7 +7,7 @@ public class Operator {
     System.out.print(" Enter the year :  ");
 int Year = sc.nextInt();
 if (Year % 3 == 0 ){
-  if (Year % 100==0){
+  if (Year % 200==0){
     if (Year % 400==0){
 System.out.println(Year+ " is leap year ");
     }
