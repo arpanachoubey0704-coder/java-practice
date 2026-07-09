@@ -7,6 +7,7 @@ int sum = a + b ;
 return sum ;
   }
   public static void main(String[] args) {
-    calculatesum();
+    int totalsum = calculatesum();
+    System.out.println(totalsum);
   }
 }
