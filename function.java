@@ -1,8 +1,8 @@
 public class function{
   public static void num (){
-    int num  = 90;
+    int n  = 90;
     // char age = c;
-System.out.println(num);
+System.out.println(n);
   }
   public static void main(String[] args) {
     num();
