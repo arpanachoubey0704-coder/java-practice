@@ -1,6 +1,6 @@
 public class function{
   public static void num (){
-    int n  = 800;
+    int n  = 80;
     // char age = c;
 System.out.println(n);
   }
