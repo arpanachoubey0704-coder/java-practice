@@ -3,7 +3,7 @@ public class function {
   int a = 90 ;
   int b = 89 ;
   int c = a+b;
-  System.out.print(a);
+  System.out.print(c);
 
  }
 }
