@@ -1,10 +1,9 @@
-public class function{
-  public static void num (){
-    int n  = 80;
-    // char age = c;
-System.out.println(n);
-  }
-  public static void main(String[] args) {
-    num();
-  }
+public class function {
+ public static void main(String[] args) {
+  int a = 90 ;
+  int b = 89 ;
+  int c = a+b;
+  System.out.print(a);
+
+ }
 }
