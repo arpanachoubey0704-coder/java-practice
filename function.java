@@ -1,11 +1,16 @@
 public class function {
-
-  public static void main(String[] args) {
-    for (int i=1; i<=4; i++){
-      for(int j =1; j<=i; j++){
-System.out.print("*");
-      }
-System.out.println();
+    public static boolean isPalindrome(int number) {
+        if (number < 0) return false;
+        int original = number;
+        int reversed = 0;
+        for (; number > 0; number /= 10) {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+        }
+        return original == reversed;
     }
-  }
+    public static void main(String[] args) {
+        int num = 12321;
+        System.out.println(num + (isPalindrome(num) ? " is a palindrome." : " is not a palindrome."));
+    }
 }
