@@ -10,7 +10,7 @@ public class function {
         return original == reversed;
     }
     public static void main(String[] args) {
-        int num = 12321;
+        int num = 1232;
         System.out.println(num + (isPalindrome(num) ? " is a palindrome." : " is not a palindrome."));
     }
 }
