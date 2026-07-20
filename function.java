@@ -3,7 +3,7 @@ import java.util.Scanner;
 class function {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter latter here : ");
+        //System.out.print("Enter latter here : ");
         char ch = sc.next().charAt(0);
         switch ( ch ){
         case 'a': 
