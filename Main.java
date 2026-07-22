@@ -1,11 +1,10 @@
 public class Main {
 
-    public static void room (){
-        int n = 9;
-System.out.println(n);
+    public static void greet (){
+System.out.println("hellow welcome to java");
 return;
     }
     public static void main(String[] args) {
-        room ();
+        greet ();
     }
 }
