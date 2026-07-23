@@ -9,6 +9,6 @@ return;
 System.out.print(" Sum is : " +sum);
     }
     public static void main(String[] args) {
-        addnumber(2, 03);
+        addnumber(2, 3);
     }
 }
