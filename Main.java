@@ -1,5 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("hii");
+        int n = 8;
+        System.out.println(n);
     }
 }
