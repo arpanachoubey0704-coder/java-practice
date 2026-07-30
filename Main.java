@@ -3,6 +3,7 @@ public class Main {
     
 
 public static void main(String[] args) {
-    System.out.println("hii");
+    int a =90;
+    System.out.println(a);
 }
 }
