@@ -6,8 +6,8 @@ public class variableanddatatype {
     int sum = a+b;
   int sub = a-b;
     int pro = a*b;
-      int div = a/b;
+      double div = a/b;
       int modules = a%b;
-      System.out.println(sum);
+      System.out.println(modules);
   }
 }
