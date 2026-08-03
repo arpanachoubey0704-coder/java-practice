@@ -1,13 +1,13 @@
 public class variableanddatatype {
 
   public static void main(String[] args) {
-    int a = 9;
-    int b = 8;
+    int a = 11;
+    int b = 2;
     int sum = a+b;
   int sub = a-b;
     int pro = a*b;
       double div = a/b;
       int modules = a%b;
-      System.out.println(modules);
+      System.out.println(div);
   }
 }
