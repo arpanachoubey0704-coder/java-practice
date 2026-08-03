@@ -1,9 +1,13 @@
 public class variableanddatatype {
 
   public static void main(String[] args) {
-    //long _result= 9.8l;
     int a = 9;
-    byte b = (byte)a;
-    System.out.println(b);
+    int b = 8;
+    int sum = a+b;
+  int sub = a-b;
+    int pro = a*b;
+      int div = a/b;
+      int modules = a%b;
+      System.out.println(sum);
   }
 }
