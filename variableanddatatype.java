@@ -9,12 +9,7 @@ public class variableanddatatype {
   //     double div = a/b;
   //     int modules = a%b;
   //     System.out.println(div);
-  int a  = 20;
-if(a>10){
-  System.out.println("greater");
-}
-else{
-  System.out.println("less");
-}
-  }
-}
+  //int a  = 20;
+int a = 5;
+
+System.out.println(++a + a++);}}
