@@ -1,15 +1,11 @@
-public class variableanddatatype {
-
-  public static void main(String[] args) {
-  //   int a = 11;
-  //   int b = 2;
-  //   int sum = a+b;
-  // int sub = a-b;
-  //   int pro = a*b;
-  //     double div = a/b;
-  //     int modules = a%b;
-  //     System.out.println(div);
-  //int a  = 20;
-int a = 5;
-
-System.out.println(++a + a++);}}
+public class variableanddatatype{
+ public static void main(String[]args){
+  int a = 9;
+  if(a%2==0){
+System.out.println("even");
+  }
+  else{
+    System.out.println("odd");
+  }
+ }
+}
