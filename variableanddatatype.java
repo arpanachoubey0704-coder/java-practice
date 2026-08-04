@@ -15,6 +15,7 @@ System.out.print(" Enter num here : ");
     }
     else{
       System.out.println("num is not plaindrome");
+      sc.close();
     }
   }
 }
