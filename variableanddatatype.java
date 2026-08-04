@@ -1,8 +1,13 @@
 //Palindrome number 
+
+import java.util.Scanner;
+
 public class variableanddatatype {
 
   public static void main(String[] args) {
-    int num = 12787891;
+    Scanner sc = new Scanner(System.in);
+System.out.print(" Enter num here : ");
+    int num = sc.nextInt();
     int firstdigit = num/100;
     int lastdigit = num%10;
     if(firstdigit==lastdigit){
