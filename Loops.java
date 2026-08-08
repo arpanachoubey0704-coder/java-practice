@@ -1,15 +1,12 @@
+import java.util.Scanner;
+
 public class Loops {
   public static void main(String[] args) {
-     System.out.println(2*1);
- System.out.println(2*2);
- System.out.println(2*3);
-  System.out.println(2*4);
-   System.out.println(2*5);
-    System.out.println(2*6);
-     System.out.println(2*7);
-      System.out.println(2*8);
-       System.out.println(2*9);
-        System.out.println(2*10);
+    Scanner sc = new Scanner(System.in);
+   int table =  2;
+   int n = sc.nextInt();
+   int m = table*n;
+   System.out.println( "multiplication is " + "2" + "*" + n + "=" + m);
 
   }
 }
