@@ -1,6 +1,6 @@
 public class Loops {
   public static void main(String[] args) {
-    for (int n = 0; n<=10;n++){
+    for (int n = 2; n<=10;n+=2){
       System.out.println(n);
     }
   }
