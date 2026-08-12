@@ -1,7 +1,7 @@
 public class Loops {
-
   public static void main(String[] args) {
-    int num []= new int[20];
-    System.out.println(num);
+    for (int n = 0; n<=10;n++){
+      System.out.println(n);
+    }
   }
 }
