@@ -7,7 +7,7 @@ public class Loops {
     System.out.println();
      System.out.print(" ODD number : ");
     for (int n=1; n <=10; n++){
-      if(n%3 !=0){
+      if(n%2 !=0){
       System.out.print( n + " ");
       }
     }
