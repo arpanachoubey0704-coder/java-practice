@@ -8,7 +8,7 @@ public class Loops {
      System.out.print(" ODD number : ");
     for (int n=1; n <=10; n++){
       System.out.println("numbers are : ");
-      if(n%4 !=0){
+      if(n%4 !=1){
       System.out.print( n + " ");
       }
     }
