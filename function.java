@@ -6,7 +6,7 @@ class function {
         System.out.print("Enter latter here : ");
         char ch = sc.next().charAt(0);
         switch ( ch ){
-        case 'b': 
+        case 'm': 
              case 'e': 
                   case 'i': 
                        case 'o': 
