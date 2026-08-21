@@ -5,7 +5,8 @@ public class Main{
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     System.out.println(" HEllow world " +a);
-
+sc.close();
     }
+  
     //System.out.println(" HEllow world ");
   }
