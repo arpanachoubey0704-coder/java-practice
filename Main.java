@@ -3,10 +3,7 @@ import java.util.Scanner;
 public class Main{
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    System.out.println(" HEllow world " +a);
-sc.close();
-    }
-  
-    //System.out.println(" HEllow world ");
+    int n = sc.nextInt();
+    sc.close();
   }
+}
