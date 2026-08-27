@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 public class variableanddatatype {
 
   public static void main(String[] args) {
-    int a = 10;
-    double b = 5.5;
-    System.out.println(a+b);
+    Scanner sc = new Scanner(System.in);
+
+     char a = sc.next().charAt(0);
+    // double b = 5.5;
+    System.out.println(a);
   }
 }
