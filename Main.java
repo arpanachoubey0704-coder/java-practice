@@ -1,7 +1,11 @@
-public class Main{
+import java.util.Scanner;
+
+public class Main {
   public static void main(String[] args) {
-    int a = 9;
-    int b = 0;
-    System.out.println(a+b);
+    Scanner sc = new Scanner(System.in);
+    String name = sc.nextLine();
+    //char Branch = sc.
+    System.out.println(name);
+
   }
 }
