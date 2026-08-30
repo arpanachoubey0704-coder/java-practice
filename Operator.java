@@ -1,18 +1,16 @@
-import java.util.Scanner;
-
-public class Operator{
+public class Operator {
   public static void main(String[] args) {
-System.out.print(" Eneter your name : ");
-    Scanner sc = new Scanner (System.in);
-String name = sc.nextLine();
-System.out.println(name);
-System.out.print(" Eneter your age : ");
-    //Scanner sc = new Scanner (System.in);
-  int a = sc.nextInt();
-  System.out.println(a);
-System.out.print(" Eneter your grade : ");
-  char c = sc.next().charAt(0);
-System.out.println(c);
-  sc.close();
+    String Name = "Swashini Dubey";
+    int age = 14;
+    double height = 4.5;
+    char greade = 'A';
+    boolean Student = true;
+    System.out.println(" Student Name : " + Name);
+    System.out.println(" Student Age : " + age);
+    System.out.println(" Student Height : "+ height);
+    System.out.println(" Student Grade : "+ greade);
+    System.out.println(" Student Student : "+ Student);
+    
+
   }
 }
