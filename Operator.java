@@ -1,16 +1,14 @@
+import java.util.Scanner;
+
 public class Operator {
   public static void main(String[] args) {
-    String Name = "Swashini Dubey";
-    int age = 14;
-    double height = 4.5;
-    char greade = 'A';
-    boolean Student = true;
-    System.out.println(" Student Name : " + Name);
-    System.out.println(" Student Age : " + age);
-    System.out.println(" Student Height : "+ height);
-    System.out.println(" Student Grade : "+ greade);
-    System.out.println(" Student Student : "+ Student);
-    
-
+    Scanner sc = new Scanner(System.in);
+    System.out.print(" Enter your first name : ");
+    String firstname = sc.next();
+    System.out.print(" Enter your last name : ");
+    String Lastname = sc.next();
+    System.out.print( " your full name is : ");
+    String fullname = firstname + " " + Lastname;
+    System.out.print(fullname);
   }
 }
