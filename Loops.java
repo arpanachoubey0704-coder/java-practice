@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class Loops{
   public static void main(String[] args) {
-    System.out.println("Hellow World");
+    Scanner sc = new Scanner (System.in);
+    int n = sc.nextInt();
+    System.out.println("Hellow World" +n);
+    sc.close();
   }
 }
