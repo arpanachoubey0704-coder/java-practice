@@ -4,13 +4,13 @@ public class Main {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print(" Enter number here : ");
-    int n = sc.nextInt();
-    if(n%2==0){
-System.out.println("number is Divisibilty by 2");
+    System.out.print(" Enter any latter here : ");
+    char latter = sc.next().charAt(0);
+    if(latter>= 'A' && latter<= 'Z'){
+System.out.println("Upper latter");
     }
     else{
-      System.out.println("number is not divisibly by 2");
+      System.out.println("LOwer latter");
     }
     sc.close();
   }
