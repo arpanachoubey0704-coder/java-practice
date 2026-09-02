@@ -4,13 +4,13 @@ public class Main {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print(" Enter any latter here : ");
-    char latter = sc.next().charAt(0);
-    if(latter>= 'A' && latter<= 'Z'){
-System.out.println("Upper latter");
+    System.out.print(" Enter any letter here : ");
+    char letter = sc.next().charAt(0);
+    if(letter>= 'A' && letter<= 'Z'){
+System.out.println("Upper letter");
     }
     else{
-      System.out.println("LOwer latter");
+      System.out.println("LOwer letter");
     }
     sc.close();
   }
