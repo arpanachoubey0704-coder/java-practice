@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
-     int n = 90;
+    Scanner sc = new Scanner(System.in);
+
+     int n = sc.nextInt();
      System.out.println(" Hellow  : " +n);
+     sc.close();
   }
 }
