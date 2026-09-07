@@ -7,7 +7,7 @@ public class Main {
      boolean t = sc.nextBoolean();
      double d = sc.nextDouble();
 
-     System.out.println(" Hellow  your output is here : " +n + " " +a + " " +t+ " "+d);
+     System.out.println(" Hellow  your output is here : " +n + " " +a + " " +t);
      sc.close();
   }
 }
