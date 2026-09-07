@@ -6,7 +6,6 @@ public class Main {
      char a = sc.next().charAt(0);
      boolean t = sc.nextBoolean();
      double d = sc.nextDouble();
-
      System.out.println(" Hellow  your output is here : " +n + " " +a + " " +t);
      sc.close();
   }
