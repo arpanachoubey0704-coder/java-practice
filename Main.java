@@ -1,14 +1,20 @@
 import java.util.Scanner;
-public class Main {
+
+public class Main{
   public static void main(String[] args) {
-    Scanner sc = new Scanner (System.in);
-    System.out.print(" Enter number here : " );
-    int n = sc.nextInt();
-    if(n%2==0){
-    System.out.println("Even");
+    Scanner sc = new Scanner(System.in);
+    System.out.println(" Enter numbere here : ");
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int c = sc.nextInt();
+    if(a>=b && a>=c){
+System.out.println(a + " is largest number ");
+    }
+    else if(b>=c){
+      System.out.println(b + " is largest number ");
     }
     else{
-System.out.println("Odd");
+      System.out.println(c + " is largest number ");
     }
     sc.close();
   }
