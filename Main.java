@@ -7,14 +7,14 @@ public class Main{
     int a=sc.nextInt();
     int b=sc.nextInt();
     int c = sc.nextInt();
-    if(a>=b && a>=c){
-System.out.println(a + " is largest number ");
+    if(a<=b && a<=c){
+System.out.println(a + " is smallest number ");
     }
-    else if(b>=c){
-      System.out.println(b + " is largest number ");
+    else if(b<=c){
+      System.out.println(b + " is smallest number ");
     }
     else{
-      System.out.println(c + " is largest number ");
+      System.out.println(c + " is smallest number 11");
     }
     sc.close();
   }
