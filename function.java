@@ -1,15 +1,13 @@
+import java.util.Scanner;
 public class function {
-
   public static void main(String[] args) {
-  //Scanner sc = new Sacnner (System.in);
-  int n = 3;
-  int m = 4;
-  if (n<m){
-    System.out.println("greater");
-  }
-  else{
-    System.out.println("less");
-    //sc.close();
-  }
+   Scanner sc = new Scanner (System.in);
+   int n = sc.nextInt();
+   while(n>0){
+    int digit = n % 10;
+    System.out.print(digit);
+   n = n /10;
+    sc.close();
+   }
   }
 }
