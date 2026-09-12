@@ -1,8 +1,7 @@
 public class function {
-   public static void main(String[] args) {
-    int a = 2;
-    int b = a--;
-  System.out.println(a);
-  System.out.println(b);
+  public static void main(String[] args) {
+    int n = 2;
+int m  = 9;
+System.out.println(+n+m);
   }
 }
