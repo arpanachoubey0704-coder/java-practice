@@ -5,7 +5,10 @@ public class Main {
     System.out.print(" Enter numbere here : ");
 
     int n = sc.nextInt();
-    if (n>=18){
+    if(n<0){
+      System.out.println( "Invaild number");
+    }
+   else if (n>=18){
       System.out.println("eligible to vote");
     }
     else{
